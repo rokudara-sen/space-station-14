@@ -1,11 +1,11 @@
-department-Cargo = Cargo
-department-Civilian = Civilian
-department-Command = Command
+department-Cargo = Departmento Munitorum & Flight Deck
+department-Civilian = Ministorum & Ship's Company
+department-Command = Lord-Captain's Command
 department-CentralCommand = Central Command
-department-Engineering = Engineering
-department-Medical = Medical
-department-Security = Security
-department-Science = Science
+department-Engineering = Adeptus Mechanicus Enginarium
+department-Medical = Apothecarion & Chirurgeon's Deck
+department-Security = Provost-Marshal & Armsmen
+department-Science = Explorator & Archivum
 department-Silicon = Silicon
 department-Specific = Station specific
 

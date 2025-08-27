@@ -1,10 +1,10 @@
-﻿department-Cargo-description = Complete bounties, earn Spessos, and order useful supplies for the crew.
-department-Civilian-description = Perform small helpful tasks to keep the station sane and well catered.
-department-Command-description = Manage the crew and keep them working efficiently.
+department-Cargo-description = Requisition supplies, munitions, and oversee dropship logistics.
+department-Civilian-description = Tend to morale, faith, and daily life aboard the ship.
+department-Command-description = Lead the crusade and enforce the Emperor's will.
 department-CentralCommand-description = Manage the crew and keep them working efficiently.
-department-Engineering-description = Keep the power on and the station operational.
-department-Medical-description = Keep the crew healthy.
-department-Security-description = Keep the peace around the station.
-department-Science-description = Research artifacts and anomalies to invent new equipment for the station
+department-Engineering-description = Maintain the holy machines, void shields, and reactors.
+department-Medical-description = Preserve the crew's flesh with sanctioned augmetics and medicae.
+department-Security-description = Enforce the Articles of War and repel boarders.
+department-Science-description = Study archaeotech and xeno artifacts under strict sanction.
 department-Silicon-description = Obey your laws and serve the crew.
 department-Specific-description = Jobs that not all stations have.
