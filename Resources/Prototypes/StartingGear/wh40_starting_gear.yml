@@ -1,0 +1,311 @@
+- type: startingGear
+  id: LordCaptainGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCaptain
+    back: ClothingBackpack
+    shoes: ClothingShoesLeather
+    head: ClothingHeadHatCaptain
+    id: CaptainPDA
+    ears: ClothingHeadsetCommand
+    gloves: ClothingHandsGlovesCaptain
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern
+
+- type: startingGear
+  id: CommandStaffGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoP
+    back: ClothingBackpack
+    shoes: ClothingShoesLeather
+    id: PassengerPDA
+    ears: ClothingHeadsetCommand
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern
+
+- type: startingGear
+  id: ProvostMarshalGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoS
+    back: ClothingBackpackSecurity
+    shoes: ClothingShoesBootsJack
+    belt: ClothingBeltSecurity
+    head: ClothingHeadHatBeretSecurity
+    id: PassengerPDA
+    ears: ClothingHeadsetSecurity
+    gloves: ClothingHandsGlovesColorBlack
+  storage:
+    back:
+      - Handcuffs
+      - FlashlightLantern
+
+- type: startingGear
+  id: CommissarGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoS
+    back: ClothingBackpackSecurity
+    shoes: ClothingShoesBootsJack
+    belt: ClothingBeltSecurity
+    head: ClothingHeadHatBeretSecurity
+    id: PassengerPDA
+    ears: ClothingHeadsetSecurity
+    gloves: ClothingHandsGlovesColorBlack
+  storage:
+    back:
+      - Handcuffs
+      - FlashlightLantern
+
+- type: startingGear
+  id: ProvostOfficerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSec
+    back: ClothingBackpackSecurity
+    shoes: ClothingShoesBootsJack
+    belt: ClothingBeltSecurity
+    head: ClothingHeadHelmetBasic
+    id: PassengerPDA
+    ears: ClothingHeadsetSecurity
+    gloves: ClothingHandsGlovesColorBlack
+  storage:
+    back:
+      - Handcuffs
+      - FlashlightLantern
+
+- type: startingGear
+  id: ArmsmanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSec
+    back: ClothingBackpackSecurity
+    shoes: ClothingShoesBootsJack
+    belt: ClothingBeltSecurity
+    head: ClothingHeadHelmetBasic
+    id: PassengerPDA
+    ears: ClothingHeadsetSecurity
+    gloves: ClothingHandsGlovesColorBlack
+  storage:
+    back:
+      - Handcuffs
+      - FlashlightLantern
+
+- type: startingGear
+  id: MagosEnginseerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChiefEngineer
+    back: ClothingBackpackEngineering
+    shoes: ClothingShoesBootsWork
+    belt: ClothingBeltUtility
+    head: ClothingHeadHatHardhatYellow
+    id: PassengerPDA
+    ears: ClothingHeadsetEngineering
+    gloves: ClothingHandsGlovesColorYellow
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern
+
+- type: startingGear
+  id: EnginseerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitEngineering
+    back: ClothingBackpackEngineering
+    shoes: ClothingShoesBootsWork
+    belt: ClothingBeltUtility
+    head: ClothingHeadHatHardhatYellow
+    id: PassengerPDA
+    ears: ClothingHeadsetEngineering
+    gloves: ClothingHandsGlovesColorYellow
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern
+
+- type: startingGear
+  id: ChiefChirurgeonGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCMO
+    back: ClothingBackpackMedical
+    shoes: ClothingShoesColorWhite
+    belt: ClothingBeltMedical
+    id: PassengerPDA
+    ears: ClothingHeadsetMedical
+    gloves: ClothingHandsGlovesLatex
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern
+
+- type: startingGear
+  id: ApothecarionAdeptGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChemist
+    back: ClothingBackpackMedical
+    shoes: ClothingShoesColorWhite
+    belt: ClothingBeltMedical
+    id: PassengerPDA
+    ears: ClothingHeadsetMedical
+    gloves: ClothingHandsGlovesLatex
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern
+
+- type: startingGear
+  id: MedicaeGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMedicalDoctor
+    back: ClothingBackpackMedical
+    shoes: ClothingShoesColorWhite
+    belt: ClothingBeltMedical
+    id: PassengerPDA
+    ears: ClothingHeadsetMedical
+    gloves: ClothingHandsGlovesLatex
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern
+
+- type: startingGear
+  id: MagosBiologisGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitResearchDirector
+    back: ClothingBackpackScience
+    shoes: ClothingShoesColorWhite
+    belt: ClothingBeltUtility
+    id: PassengerPDA
+    ears: ClothingHeadsetScience
+    gloves: ClothingHandsGlovesLatex
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern
+
+- type: startingGear
+  id: ArchivumStaffGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitScientist
+    back: ClothingBackpackScience
+    shoes: ClothingShoesColorWhite
+    belt: ClothingBeltUtility
+    id: PassengerPDA
+    ears: ClothingHeadsetScience
+    gloves: ClothingHandsGlovesLatex
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern
+
+- type: startingGear
+  id: QuartermasterGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCargo
+    back: ClothingBackpackCargo
+    shoes: ClothingShoesBootsWork
+    belt: ClothingBeltUtility
+    id: PassengerPDA
+    ears: ClothingHeadsetCargo
+    gloves: ClothingHandsGlovesColorBrown
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern
+
+- type: startingGear
+  id: MunitorumGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCargo
+    back: ClothingBackpackCargo
+    shoes: ClothingShoesBootsWork
+    belt: ClothingBeltUtility
+    id: PassengerPDA
+    ears: ClothingHeadsetCargo
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern
+
+- type: startingGear
+  id: DeckChiefGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSalvageSpecialist
+    back: ClothingBackpackSalvage
+    shoes: ClothingShoesBootsWork
+    belt: ClothingBeltUtility
+    head: ClothingHeadHatHardhatYellow
+    id: PassengerPDA
+    ears: ClothingHeadsetEngineering
+    gloves: ClothingHandsGlovesColorYellow
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern
+
+- type: startingGear
+  id: FlightCrewGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSalvageSpecialist
+    back: ClothingBackpackSalvage
+    shoes: ClothingShoesBootsWork
+    belt: ClothingBeltUtility
+    head: ClothingHeadHatHardhatYellow
+    id: PassengerPDA
+    ears: ClothingHeadsetEngineering
+    gloves: ClothingHandsGlovesColorYellow
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern
+
+- type: startingGear
+  id: SeniorConfessorGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChaplain
+    back: ClothingBackpack
+    shoes: ClothingShoesColorBlack
+    id: PassengerPDA
+    ears: ClothingHeadsetService
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern
+
+- type: startingGear
+  id: ServiceCrewGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorBlack
+    back: ClothingBackpack
+    shoes: ClothingShoesColorBlack
+    id: PassengerPDA
+    ears: ClothingHeadsetService
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern
+
+- type: startingGear
+  id: CrewmanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorGrey
+    back: ClothingBackpack
+    shoes: ClothingShoesColorBlack
+    id: PassengerPDA
+    ears: ClothingHeadsetService
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern
+
+- type: startingGear
+  id: PenalLegionnaireGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitPrisoner
+    back: ClothingBackpack
+    shoes: ClothingShoesColorOrange
+    id: PassengerPDA
+    ears: ClothingHeadsetService
+  storage:
+    back:
+      - EmergencyOxygenTankFilled
+      - FlashlightLantern

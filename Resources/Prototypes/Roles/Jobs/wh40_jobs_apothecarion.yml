@@ -1,0 +1,92 @@
+- type: job
+  id: ChiefChirurgeon
+  name: job-name-ChiefChirurgeon
+  description: job-desc-ChiefChirurgeon
+  playTimeTracker: JobChiefChirurgeon
+  startingGear: ChiefChirurgeonGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Lord-Captain
+  department: Apothecarion
+  canBeAntag: false
+  weight: 70
+  setPreference: true
+  requirements: []
+  access:
+    - Command
+    - Medical
+    - Chemistry
+    - Maintenance
+  slots: 1
+
+- type: job
+  id: SeniorMedicae
+  name: job-name-SeniorMedicae
+  description: job-desc-SeniorMedicae
+  playTimeTracker: JobSeniorMedicae
+  startingGear: MedicaeGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: CMO
+  department: Apothecarion
+  canBeAntag: true
+  weight: 60
+  setPreference: true
+  requirements: []
+  access:
+    - Medical
+    - Maintenance
+  slots: 3
+
+- type: job
+  id: ApothecarionAdept
+  name: job-name-ApothecarionAdept
+  description: job-desc-ApothecarionAdept
+  playTimeTracker: JobApothecarionAdept
+  startingGear: ApothecarionAdeptGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: CMO
+  department: Apothecarion
+  canBeAntag: true
+  weight: 50
+  setPreference: true
+  requirements: []
+  access:
+    - Medical
+    - Chemistry
+    - Maintenance
+  slots: 2
+
+- type: job
+  id: Orderly
+  name: job-name-Orderly
+  description: job-desc-Orderly
+  playTimeTracker: JobOrderly
+  startingGear: MedicaeGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: CMO
+  department: Apothecarion
+  canBeAntag: true
+  weight: 40
+  setPreference: true
+  requirements: []
+  access:
+    - Medical
+    - Maintenance
+  slots: 4
+
+- type: job
+  id: MortisCustodian
+  name: job-name-MortisCustodian
+  description: job-desc-MortisCustodian
+  playTimeTracker: JobMortisCustodian
+  startingGear: MedicaeGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: CMO
+  department: Apothecarion
+  canBeAntag: true
+  weight: 30
+  setPreference: true
+  requirements: []
+  access:
+    - Medical
+    - Maintenance
+  slots: 1

@@ -1,0 +1,75 @@
+- type: job
+  id: DeckChief
+  name: job-name-DeckChief
+  description: job-desc-DeckChief
+  playTimeTracker: JobDeckChief
+  startingGear: DeckChiefGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: XO
+  department: FlightDeck
+  canBeAntag: true
+  weight: 40
+  setPreference: true
+  requirements: []
+  access:
+    - Cargo
+    - Maintenance
+    - External
+  slots: 1
+
+- type: job
+  id: ValkyriePilot
+  name: job-name-ValkyriePilot
+  description: job-desc-ValkyriePilot
+  playTimeTracker: JobValkyriePilot
+  startingGear: FlightCrewGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Deck Chief
+  department: FlightDeck
+  canBeAntag: true
+  weight: 30
+  setPreference: true
+  requirements: []
+  access:
+    - Cargo
+    - Maintenance
+    - External
+  slots: 2
+
+- type: job
+  id: CrewChief
+  name: job-name-CrewChief
+  description: job-desc-CrewChief
+  playTimeTracker: JobCrewChief
+  startingGear: FlightCrewGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Deck Chief
+  department: FlightDeck
+  canBeAntag: true
+  weight: 20
+  setPreference: true
+  requirements: []
+  access:
+    - Cargo
+    - Maintenance
+    - External
+  slots: 2
+
+- type: job
+  id: DoorGunner
+  name: job-name-DoorGunner
+  description: job-desc-DoorGunner
+  playTimeTracker: JobDoorGunner
+  startingGear: FlightCrewGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Deck Chief
+  department: FlightDeck
+  canBeAntag: true
+  weight: 10
+  setPreference: true
+  requirements: []
+  access:
+    - Cargo
+    - Maintenance
+    - External
+  slots: 2

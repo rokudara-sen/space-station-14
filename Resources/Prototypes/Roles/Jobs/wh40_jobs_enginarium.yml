@@ -1,0 +1,94 @@
+- type: job
+  id: MagosEnginseer
+  name: job-name-MagosEnginseer
+  description: job-desc-MagosEnginseer
+  playTimeTracker: JobMagosEnginseer
+  startingGear: MagosEnginseerGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Lord-Captain
+  department: Enginarium
+  canBeAntag: false
+  weight: 70
+  setPreference: true
+  requirements: []
+  access:
+    - Command
+    - Engineering
+    - Maintenance
+    - Atmospherics
+    - External
+  slots: 1
+
+- type: job
+  id: TechPriestEnginseer
+  name: job-name-TechPriestEnginseer
+  description: job-desc-TechPriestEnginseer
+  playTimeTracker: JobTechPriestEnginseer
+  startingGear: EnginseerGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Magos
+  department: Enginarium
+  canBeAntag: true
+  weight: 60
+  setPreference: true
+  requirements: []
+  access:
+    - Engineering
+    - Maintenance
+    - Atmospherics
+    - External
+  slots: 4
+
+- type: job
+  id: Lexmechanic
+  name: job-name-Lexmechanic
+  description: job-desc-Lexmechanic
+  playTimeTracker: JobLexmechanic
+  startingGear: EnginseerGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Magos
+  department: Enginarium
+  canBeAntag: true
+  weight: 50
+  setPreference: true
+  requirements: []
+  access:
+    - Engineering
+    - Maintenance
+  slots: 2
+
+- type: job
+  id: FabricatorAdept
+  name: job-name-FabricatorAdept
+  description: job-desc-FabricatorAdept
+  playTimeTracker: JobFabricatorAdept
+  startingGear: EnginseerGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Magos
+  department: Enginarium
+  canBeAntag: true
+  weight: 40
+  setPreference: true
+  requirements: []
+  access:
+    - Engineering
+    - Maintenance
+  slots: 2
+
+- type: job
+  id: ServitorHandler
+  name: job-name-ServitorHandler
+  description: job-desc-ServitorHandler
+  playTimeTracker: JobServitorHandler
+  startingGear: EnginseerGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Magos
+  department: Enginarium
+  canBeAntag: true
+  weight: 30
+  setPreference: true
+  requirements: []
+  access:
+    - Engineering
+    - Maintenance
+  slots: 1

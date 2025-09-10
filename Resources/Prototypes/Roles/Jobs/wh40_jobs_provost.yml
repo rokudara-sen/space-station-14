@@ -1,0 +1,127 @@
+- type: job
+  id: ProvostMarshal
+  name: job-name-ProvostMarshal
+  description: job-desc-ProvostMarshal
+  playTimeTracker: JobProvostMarshal
+  startingGear: ProvostMarshalGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Lord-Captain
+  department: Provost
+  canBeAntag: false
+  weight: 80
+  setPreference: true
+  requirements: []
+  access:
+    - Security
+    - Brig
+    - Armory
+    - Maintenance
+    - Service
+    - External
+  slots: 1
+
+- type: job
+  id: Commissar
+  name: job-name-Commissar
+  description: job-desc-Commissar
+  playTimeTracker: JobCommissar
+  startingGear: CommissarGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Lord-Captain
+  department: Provost
+  canBeAntag: false
+  weight: 75
+  setPreference: true
+  requirements: []
+  access:
+    - Security
+    - Brig
+    - Armory
+    - Maintenance
+    - Service
+    - External
+  slots: 1
+
+- type: job
+  id: Arbitrator
+  name: job-name-Arbitrator
+  description: job-desc-Arbitrator
+  playTimeTracker: JobArbitrator
+  startingGear: ProvostOfficerGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Provost-Marshal
+  department: Provost
+  canBeAntag: true
+  weight: 60
+  setPreference: true
+  requirements: []
+  access:
+    - Security
+    - Brig
+    - Armory
+    - Maintenance
+    - Service
+    - External
+  slots: 1
+
+- type: job
+  id: ArmsmanSergeant
+  name: job-name-ArmsmanSergeant
+  description: job-desc-ArmsmanSergeant
+  playTimeTracker: JobArmsmanSergeant
+  startingGear: ProvostOfficerGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Provost-Marshal
+  department: Provost
+  canBeAntag: true
+  weight: 50
+  setPreference: true
+  requirements: []
+  access:
+    - Security
+    - Brig
+    - Maintenance
+    - Service
+    - External
+  slots: 2
+
+- type: job
+  id: Armsman
+  name: job-name-Armsman
+  description: job-desc-Armsman
+  playTimeTracker: JobArmsman
+  startingGear: ArmsmanGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: "Provost NCOs"
+  department: Provost
+  canBeAntag: true
+  weight: 40
+  setPreference: true
+  requirements: []
+  access:
+    - Security
+    - Brig
+    - Maintenance
+    - Service
+    - External
+  slots: 8
+
+- type: job
+  id: Warden
+  name: job-name-Warden
+  description: job-desc-Warden
+  playTimeTracker: JobWarden
+  startingGear: ProvostOfficerGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Provost-Marshal
+  department: Provost
+  canBeAntag: true
+  weight: 30
+  setPreference: true
+  requirements: []
+  access:
+    - Security
+    - Brig
+    - Maintenance
+    - Service
+  slots: 1

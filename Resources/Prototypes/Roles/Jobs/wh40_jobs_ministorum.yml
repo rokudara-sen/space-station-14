@@ -1,0 +1,90 @@
+- type: job
+  id: SeniorConfessor
+  name: job-name-SeniorConfessor
+  description: job-desc-SeniorConfessor
+  playTimeTracker: JobSeniorConfessor
+  startingGear: SeniorConfessorGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Lord-Captain
+  department: Ministorum
+  canBeAntag: true
+  weight: 30
+  setPreference: true
+  requirements: []
+  access:
+    - Service
+    - Chapel
+    - Maintenance
+  slots: 1
+
+- type: job
+  id: GalleyMaster
+  name: job-name-GalleyMaster
+  description: job-desc-GalleyMaster
+  playTimeTracker: JobGalleyMaster
+  startingGear: ServiceCrewGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: XO
+  department: Ministorum
+  canBeAntag: true
+  weight: 25
+  setPreference: true
+  requirements: []
+  access:
+    - Service
+    - Kitchen
+    - Maintenance
+  slots: 1
+
+- type: job
+  id: Remembrancer
+  name: job-name-Remembrancer
+  description: job-desc-Remembrancer
+  playTimeTracker: JobRemembrancer
+  startingGear: ServiceCrewGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Confessor
+  department: Ministorum
+  canBeAntag: true
+  weight: 20
+  setPreference: true
+  requirements: []
+  access:
+    - Service
+  slots: 2
+
+- type: job
+  id: Steward
+  name: job-name-Steward
+  description: job-desc-Steward
+  playTimeTracker: JobSteward
+  startingGear: ServiceCrewGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: XO
+  department: Ministorum
+  canBeAntag: true
+  weight: 15
+  setPreference: true
+  requirements: []
+  access:
+    - Service
+  slots: 2
+
+- type: job
+  id: SanitationCustos
+  name: job-name-SanitationCustos
+  description: job-desc-SanitationCustos
+  playTimeTracker: JobSanitationCustos
+  startingGear: ServiceCrewGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: XO
+  department: Ministorum
+  canBeAntag: true
+  weight: 10
+  setPreference: true
+  requirements: []
+  access:
+    - Service
+    - Janitor
+    - Maintenance
+  slots: 2

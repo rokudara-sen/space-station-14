@@ -1,0 +1,57 @@
+- type: job
+  id: Quartermaster
+  name: job-name-Quartermaster
+  description: job-desc-Quartermaster
+  playTimeTracker: JobQuartermaster
+  startingGear: QuartermasterGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: XO
+  department: Munitorum
+  canBeAntag: false
+  weight: 50
+  setPreference: true
+  requirements: []
+  access:
+    - Command
+    - Cargo
+    - Maintenance
+    - External
+  slots: 1
+
+- type: job
+  id: MunitorumOfficer
+  name: job-name-MunitorumOfficer
+  description: job-desc-MunitorumOfficer
+  playTimeTracker: JobMunitorumOfficer
+  startingGear: MunitorumGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Quartermaster
+  department: Munitorum
+  canBeAntag: true
+  weight: 40
+  setPreference: true
+  requirements: []
+  access:
+    - Cargo
+    - Maintenance
+    - External
+  slots: 3
+
+- type: job
+  id: CargoTech
+  name: job-name-CargoTech
+  description: job-desc-CargoTech
+  playTimeTracker: JobCargoTech
+  startingGear: MunitorumGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Quartermaster
+  department: Munitorum
+  canBeAntag: true
+  weight: 30
+  setPreference: true
+  requirements: []
+  access:
+    - Cargo
+    - Maintenance
+    - External
+  slots: 4

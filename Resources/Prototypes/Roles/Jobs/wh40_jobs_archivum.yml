@@ -1,0 +1,72 @@
+- type: job
+  id: MagosBiologis
+  name: job-name-MagosBiologis
+  description: job-desc-MagosBiologis
+  playTimeTracker: JobMagosBiologis
+  startingGear: MagosBiologisGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Lord-Captain
+  department: Archivum
+  canBeAntag: false
+  weight: 60
+  setPreference: true
+  requirements: []
+  access:
+    - Command
+    - Research
+    - Maintenance
+  slots: 1
+
+- type: job
+  id: ExploratorAdept
+  name: job-name-ExploratorAdept
+  description: job-desc-ExploratorAdept
+  playTimeTracker: JobExploratorAdept
+  startingGear: ArchivumStaffGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Biologis
+  department: Archivum
+  canBeAntag: true
+  weight: 50
+  setPreference: true
+  requirements: []
+  access:
+    - Research
+    - Maintenance
+  slots: 3
+
+- type: job
+  id: Xenologis
+  name: job-name-Xenologis
+  description: job-desc-Xenologis
+  playTimeTracker: JobXenologis
+  startingGear: ArchivumStaffGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Biologis
+  department: Archivum
+  canBeAntag: true
+  weight: 40
+  setPreference: true
+  requirements: []
+  access:
+    - Research
+    - Maintenance
+  slots: 1
+
+- type: job
+  id: Cryptologos
+  name: job-name-Cryptologos
+  description: job-desc-Cryptologos
+  playTimeTracker: JobCryptologos
+  startingGear: ArchivumStaffGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Biologis
+  department: Archivum
+  canBeAntag: true
+  weight: 30
+  setPreference: true
+  requirements: []
+  access:
+    - Research
+    - Maintenance
+  slots: 2

@@ -1,0 +1,33 @@
+- type: job
+  id: Crewman
+  name: job-name-Crewman
+  description: job-desc-Crewman
+  playTimeTracker: JobCrewman
+  startingGear: CrewmanGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Boatswain
+  department: ShipCompany
+  canBeAntag: true
+  weight: 20
+  setPreference: true
+  requirements: []
+  access:
+    - Service
+  slots: -1
+
+- type: job
+  id: PenalLegionnaire
+  name: job-name-PenalLegionnaire
+  description: job-desc-PenalLegionnaire
+  playTimeTracker: JobPenalLegionnaire
+  startingGear: PenalLegionnaireGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Provost-Marshal
+  department: ShipCompany
+  canBeAntag: true
+  weight: 10
+  setPreference: true
+  requirements: []
+  access:
+    - Service
+  slots: 2

@@ -1,0 +1,144 @@
+- type: job
+  id: LordCaptain
+  name: job-name-LordCaptain
+  description: job-desc-LordCaptain
+  playTimeTracker: JobLordCaptain
+  startingGear: LordCaptainGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: "The Emperor's Will"
+  department: Command
+  canBeAntag: false
+  weight: 100
+  setPreference: true
+  requirements: []
+  access:
+    - Command
+    - Maintenance
+    - Engineering
+    - Atmospherics
+    - Security
+    - Armory
+    - Medical
+    - Research
+    - Cargo
+    - External
+  jobEntity: PlayerSpawnPointCaptain
+  slots: 1
+
+- type: job
+  id: FirstOfficer
+  name: job-name-FirstOfficer
+  description: job-desc-FirstOfficer
+  playTimeTracker: JobFirstOfficer
+  startingGear: CommandStaffGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Lord-Captain
+  department: Command
+  canBeAntag: false
+  weight: 90
+  setPreference: true
+  requirements: []
+  access:
+    - Command
+    - Maintenance
+    - Security
+    - Engineering
+    - Medical
+    - Research
+    - Cargo
+  slots: 1
+
+- type: job
+  id: MasterOfVox
+  name: job-name-MasterOfVox
+  description: job-desc-MasterOfVox
+  playTimeTracker: JobMasterOfVox
+  startingGear: CommandStaffGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: XO
+  department: Command
+  canBeAntag: true
+  weight: 80
+  setPreference: true
+  requirements: []
+  access:
+    - Command
+    - Maintenance
+  slots: 2
+
+- type: job
+  id: ChoirMasterTelepathica
+  name: job-name-ChoirMasterTelepathica
+  description: job-desc-ChoirMasterTelepathica
+  playTimeTracker: JobChoirMasterTelepathica
+  startingGear: CommandStaffGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: XO
+  department: Command
+  canBeAntag: true
+  weight: 70
+  setPreference: true
+  requirements: []
+  access:
+    - Command
+    - Maintenance
+    - Research
+  slots: 1
+
+- type: job
+  id: ShipConfessor
+  name: job-name-ShipConfessor
+  description: job-desc-ShipConfessor
+  playTimeTracker: JobShipConfessor
+  startingGear: CommandStaffGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: Lord-Captain
+  department: Command
+  canBeAntag: true
+  weight: 60
+  setPreference: true
+  requirements: []
+  access:
+    - Command
+    - Service
+    - Chapel
+    - Maintenance
+  slots: 1
+
+- type: job
+  id: MasterHelmsman
+  name: job-name-MasterHelmsman
+  description: job-desc-MasterHelmsman
+  playTimeTracker: JobMasterHelmsman
+  startingGear: CommandStaffGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: XO
+  department: Command
+  canBeAntag: true
+  weight: 50
+  setPreference: true
+  requirements: []
+  access:
+    - Command
+    - Maintenance
+    - External
+  slots: 1
+
+- type: job
+  id: Boatswain
+  name: job-name-Boatswain
+  description: job-desc-Boatswain
+  playTimeTracker: JobBoatswain
+  startingGear: CommandStaffGear
+  icon: Interface/Misc/job_icons.rsi/captain
+  supervisors: XO
+  department: Command
+  canBeAntag: true
+  weight: 40
+  setPreference: true
+  requirements: []
+  access:
+    - Command
+    - Service
+    - Maintenance
+  slots: 1
