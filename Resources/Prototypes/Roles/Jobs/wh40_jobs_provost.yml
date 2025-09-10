@@ -6,7 +6,7 @@
   startingGear: ProvostMarshalGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: Lord-Captain
-  department: Provost
+  department: WHProvost
   canBeAntag: false
   weight: 80
   setPreference: true
@@ -28,7 +28,7 @@
   startingGear: CommissarGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: Lord-Captain
-  department: Provost
+  department: WHProvost
   canBeAntag: false
   weight: 75
   setPreference: true
@@ -50,7 +50,7 @@
   startingGear: ProvostOfficerGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: Provost-Marshal
-  department: Provost
+  department: WHProvost
   canBeAntag: true
   weight: 60
   setPreference: true
@@ -72,7 +72,7 @@
   startingGear: ProvostOfficerGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: Provost-Marshal
-  department: Provost
+  department: WHProvost
   canBeAntag: true
   weight: 50
   setPreference: true
@@ -93,7 +93,7 @@
   startingGear: ArmsmanGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: "Provost NCOs"
-  department: Provost
+  department: WHProvost
   canBeAntag: true
   weight: 40
   setPreference: true
@@ -107,14 +107,14 @@
   slots: 8
 
 - type: job
-  id: Warden
-  name: job-name-Warden
-  description: job-desc-Warden
-  playTimeTracker: JobWarden
+  id: WHWarden
+  name: job-name-WHWarden
+  description: job-desc-WHWarden
+  playTimeTracker: JobWHWarden
   startingGear: ProvostOfficerGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: Provost-Marshal
-  department: Provost
+  department: WHProvost
   canBeAntag: true
   weight: 30
   setPreference: true

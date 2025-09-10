@@ -6,7 +6,7 @@
   startingGear: LordCaptainGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: "The Emperor's Will"
-  department: Command
+  department: WHCommand
   canBeAntag: false
   weight: 100
   setPreference: true
@@ -33,7 +33,7 @@
   startingGear: CommandStaffGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: Lord-Captain
-  department: Command
+  department: WHCommand
   canBeAntag: false
   weight: 90
   setPreference: true
@@ -56,7 +56,7 @@
   startingGear: CommandStaffGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: XO
-  department: Command
+  department: WHCommand
   canBeAntag: true
   weight: 80
   setPreference: true
@@ -74,7 +74,7 @@
   startingGear: CommandStaffGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: XO
-  department: Command
+  department: WHCommand
   canBeAntag: true
   weight: 70
   setPreference: true
@@ -93,7 +93,7 @@
   startingGear: CommandStaffGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: Lord-Captain
-  department: Command
+  department: WHCommand
   canBeAntag: true
   weight: 60
   setPreference: true
@@ -113,7 +113,7 @@
   startingGear: CommandStaffGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: XO
-  department: Command
+  department: WHCommand
   canBeAntag: true
   weight: 50
   setPreference: true
@@ -132,7 +132,7 @@
   startingGear: CommandStaffGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: XO
-  department: Command
+  department: WHCommand
   canBeAntag: true
   weight: 40
   setPreference: true

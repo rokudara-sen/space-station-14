@@ -231,3 +231,7 @@
   id: JobCrewman
 - type: playTimeTracker
   id: JobPenalLegionnaire
+- type: playTimeTracker
+  id: JobWHQuartermaster
+- type: playTimeTracker
+  id: JobWHWarden

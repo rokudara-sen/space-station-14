@@ -6,7 +6,7 @@
   startingGear: MagosEnginseerGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: Lord-Captain
-  department: Enginarium
+  department: WHEnginarium
   canBeAntag: false
   weight: 70
   setPreference: true
@@ -27,7 +27,7 @@
   startingGear: EnginseerGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: Magos
-  department: Enginarium
+  department: WHEnginarium
   canBeAntag: true
   weight: 60
   setPreference: true
@@ -47,7 +47,7 @@
   startingGear: EnginseerGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: Magos
-  department: Enginarium
+  department: WHEnginarium
   canBeAntag: true
   weight: 50
   setPreference: true
@@ -65,7 +65,7 @@
   startingGear: EnginseerGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: Magos
-  department: Enginarium
+  department: WHEnginarium
   canBeAntag: true
   weight: 40
   setPreference: true
@@ -83,7 +83,7 @@
   startingGear: EnginseerGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: Magos
-  department: Enginarium
+  department: WHEnginarium
   canBeAntag: true
   weight: 30
   setPreference: true

@@ -1,7 +1,7 @@
 - type: department
-  id: Command
-  name: department-Command
-  description: department-Command-description
+  id: WHCommand
+  name: department-WHCommand
+  description: department-WHCommand-description
   color: "#D4AF37"
   weight: 100
   roles:
@@ -13,9 +13,9 @@
     - MasterHelmsman
     - Boatswain
 - type: department
-  id: Provost
-  name: department-Provost
-  description: department-Provost-description
+  id: WHProvost
+  name: department-WHProvost
+  description: department-WHProvost-description
   color: "#DE3A3A"
   weight: 90
   roles:
@@ -24,11 +24,11 @@
     - Arbitrator
     - ArmsmanSergeant
     - Armsman
-    - Warden
+    - WHWarden
 - type: department
-  id: Enginarium
-  name: department-Enginarium
-  description: department-Enginarium-description
+  id: WHEnginarium
+  name: department-WHEnginarium
+  description: department-WHEnginarium-description
   color: "#EFB341"
   weight: 80
   roles:
@@ -38,9 +38,9 @@
     - FabricatorAdept
     - ServitorHandler
 - type: department
-  id: Apothecarion
-  name: department-Apothecarion
-  description: department-Apothecarion-description
+  id: WHApothecarion
+  name: department-WHApothecarion
+  description: department-WHApothecarion-description
   color: "#52B4E9"
   weight: 70
   roles:
@@ -50,9 +50,9 @@
     - Orderly
     - MortisCustodian
 - type: department
-  id: Archivum
-  name: department-Archivum
-  description: department-Archivum-description
+  id: WHArchivum
+  name: department-WHArchivum
+  description: department-WHArchivum-description
   color: "#D381C9"
   weight: 60
   roles:
@@ -61,19 +61,19 @@
     - Xenologis
     - Cryptologos
 - type: department
-  id: Munitorum
-  name: department-Munitorum
-  description: department-Munitorum-description
+  id: WHMunitorum
+  name: department-WHMunitorum
+  description: department-WHMunitorum-description
   color: "#A46106"
   weight: 50
   roles:
-    - Quartermaster
+    - WHQuartermaster
     - MunitorumOfficer
     - CargoTech
 - type: department
-  id: FlightDeck
-  name: department-FlightDeck
-  description: department-FlightDeck-description
+  id: WHFlightDeck
+  name: department-WHFlightDeck
+  description: department-WHFlightDeck-description
   color: "#7FA8BE"
   weight: 40
   roles:
@@ -82,9 +82,9 @@
     - CrewChief
     - DoorGunner
 - type: department
-  id: Ministorum
-  name: department-Ministorum
-  description: department-Ministorum-description
+  id: WHMinistorum
+  name: department-WHMinistorum
+  description: department-WHMinistorum-description
   color: "#9FED58"
   weight: 30
   roles:
@@ -94,9 +94,9 @@
     - Steward
     - SanitationCustos
 - type: department
-  id: ShipCompany
-  name: department-ShipCompany
-  description: department-ShipCompany-description
+  id: WHShipCompany
+  name: department-WHShipCompany
+  description: department-WHShipCompany-description
   color: "#C0C0C0"
   weight: 20
   roles:

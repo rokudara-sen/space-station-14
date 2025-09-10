@@ -6,7 +6,7 @@
   startingGear: ChiefChirurgeonGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: Lord-Captain
-  department: Apothecarion
+  department: WHApothecarion
   canBeAntag: false
   weight: 70
   setPreference: true
@@ -26,7 +26,7 @@
   startingGear: MedicaeGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: CMO
-  department: Apothecarion
+  department: WHApothecarion
   canBeAntag: true
   weight: 60
   setPreference: true
@@ -44,7 +44,7 @@
   startingGear: ApothecarionAdeptGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: CMO
-  department: Apothecarion
+  department: WHApothecarion
   canBeAntag: true
   weight: 50
   setPreference: true
@@ -63,7 +63,7 @@
   startingGear: MedicaeGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: CMO
-  department: Apothecarion
+  department: WHApothecarion
   canBeAntag: true
   weight: 40
   setPreference: true
@@ -81,7 +81,7 @@
   startingGear: MedicaeGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: CMO
-  department: Apothecarion
+  department: WHApothecarion
   canBeAntag: true
   weight: 30
   setPreference: true

@@ -1,22 +1,22 @@
 ## Departments
-department-Command = Command
-department-Command-description = Naval command and shipwide direction.
-department-Provost = Provost
-department-Provost-description = Security forces and discipline.
-department-Enginarium = Enginarium
-department-Enginarium-description = Machine cult and voidship maintenance.
-department-Apothecarion = Apothecarion
-department-Apothecarion-description = Medical care and chirurgical arts.
-department-Archivum = Archivum
-department-Archivum-description = Research, records, and forbidden lore.
-department-Munitorum = Munitorum
-department-Munitorum-description = Logistics and supply management.
-department-FlightDeck = Flight Deck
-department-FlightDeck-description = Dropships, pilots, and hangar crews.
-department-Ministorum = Ministorum
-department-Ministorum-description = Ecclesiastical service and morale.
-department-ShipCompany = Ship's Company
-department-ShipCompany-description = General crew and press-ganged labor.
+department-WHCommand = Command
+department-WHCommand-description = Naval command and shipwide direction.
+department-WHProvost = Provost
+department-WHProvost-description = Security forces and discipline.
+department-WHEnginarium = Enginarium
+department-WHEnginarium-description = Machine cult and voidship maintenance.
+department-WHApothecarion = Apothecarion
+department-WHApothecarion-description = Medical care and chirurgical arts.
+department-WHArchivum = Archivum
+department-WHArchivum-description = Research, records, and forbidden lore.
+department-WHMunitorum = Munitorum
+department-WHMunitorum-description = Logistics and supply management.
+department-WHFlightDeck = Flight Deck
+department-WHFlightDeck-description = Dropships, pilots, and hangar crews.
+department-WHMinistorum = Ministorum
+department-WHMinistorum-description = Ecclesiastical service and morale.
+department-WHShipCompany = Ship's Company
+department-WHShipCompany-description = General crew and press-ganged labor.
 
 ## Jobs
 job-name-LordCaptain = Lord-Captain
@@ -44,8 +44,8 @@ job-name-ArmsmanSergeant = Armsman Sergeant
 job-desc-ArmsmanSergeant = Non-commissioned officer leading armsmen squads.
 job-name-Armsman = Armsman
 job-desc-Armsman = Shipboard security—patrols, checkpoints, and boarding actions.
-job-name-Warden = Warden
-job-desc-Warden = Oversees the brig and its detainees.
+job-name-WHWarden = Warden
+job-desc-WHWarden = Oversees the brig and its detainees.
 
 job-name-MagosEnginseer = Magos Enginseer
 job-desc-MagosEnginseer = Adept of the Machine God overseeing the enginarium.
@@ -78,8 +78,8 @@ job-desc-Xenologis = Studies alien life and culture.
 job-name-Cryptologos = Cryptologos
 job-desc-Cryptologos = Deciphers data and secures archives.
 
-job-name-Quartermaster = Quartermaster
-job-desc-Quartermaster = Oversees logistics, supply, and requisitions.
+job-name-WHQuartermaster = Quartermaster
+job-desc-WHQuartermaster = Oversees logistics, supply, and requisitions.
 job-name-MunitorumOfficer = Munitorum Officer
 job-desc-MunitorumOfficer = Handles materiel distribution and records.
 job-name-CargoTech = Cargo Tech

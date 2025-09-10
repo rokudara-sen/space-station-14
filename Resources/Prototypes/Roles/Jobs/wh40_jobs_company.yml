@@ -6,7 +6,7 @@
   startingGear: CrewmanGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: Boatswain
-  department: ShipCompany
+  department: WHShipCompany
   canBeAntag: true
   weight: 20
   setPreference: true
@@ -23,7 +23,7 @@
   startingGear: PenalLegionnaireGear
   icon: Interface/Misc/job_icons.rsi/captain
   supervisors: Provost-Marshal
-  department: ShipCompany
+  department: WHShipCompany
   canBeAntag: true
   weight: 10
   setPreference: true
