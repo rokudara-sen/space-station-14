@@ -35,7 +35,7 @@ namespace Content.Shared.Movement.Components
         public Vector2 CurTickWalkMovement;
         public Vector2 CurTickSprintMovement;
 
-        public MoveButtons HeldMoveButtons = MoveButtons.None;
+        public MoveButtons HeldMoveButtons = MoveButtons.Walk;
 
         /// <summary>
         /// Does our input indicate actual movement, and not just modifiers?

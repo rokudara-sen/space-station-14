@@ -590,7 +590,7 @@ namespace Content.Shared.Movement.Systems
             {
                 if (session?.AttachedEntity == null) return false;
 
-                _controller.HandleRunChange(session.AttachedEntity.Value, message.SubTick, message.State == BoundKeyState.Down);
+                _controller.HandleRunChange(session.AttachedEntity.Value, message.SubTick, message.State != BoundKeyState.Down);
                 return false;
             }
         }
