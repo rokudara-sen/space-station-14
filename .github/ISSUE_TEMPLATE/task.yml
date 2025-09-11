@@ -1,0 +1,11 @@
+﻿name: Task
+description: Small, well-defined task
+labels: [type:task, needs-triage]
+body:
+- type: input
+  id: summary
+  attributes: { label: Summary }
+  validations: { required: true }
+- type: dropdown
+  id: area
+  attributes: { label: Area, options: ["area:rites","area:courts","area:ceremonies","area:whitelist","area:map","area:art","area:audio","area:uniforms","area:doors","area:consoles","area:admin","area:telemetry","area:events","area:docs"] }

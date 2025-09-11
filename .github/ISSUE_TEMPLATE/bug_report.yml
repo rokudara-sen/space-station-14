@@ -1,0 +1,14 @@
+﻿name: Bug report
+description: Report a defect
+labels: [type:bug, needs-triage]
+body:
+- type: input
+  id: what
+  attributes: { label: What happened?, placeholder: Clear description }
+  validations: { required: true }
+- type: textarea
+  id: repro
+  attributes: { label: Steps to reproduce }
+- type: dropdown
+  id: area
+  attributes: { label: Area, options: ["area:rites","area:courts","area:ceremonies","area:whitelist","area:map","area:art","area:audio","area:uniforms","area:doors","area:consoles","area:admin","area:telemetry","area:events","area:docs"] }

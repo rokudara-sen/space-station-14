@@ -1,0 +1,17 @@
+﻿name: Feature request
+description: Propose a new feature aligned with the Design doc
+labels: [type:feature, needs-triage]
+body:
+- type: input
+  id: summary
+  attributes: { label: Summary, placeholder: One-line summary }
+  validations: { required: true }
+- type: textarea
+  id: detail
+  attributes: { label: Details, description: What & why; link sections of 02-Design.md }
+- type: dropdown
+  id: area
+  attributes: { label: Area, options: ["area:rites","area:courts","area:ceremonies","area:whitelist","area:map","area:art","area:audio","area:uniforms","area:doors","area:consoles","area:admin","area:telemetry","area:events","area:docs"] }
+- type: dropdown
+  id: size
+  attributes: { label: Size, options: ["XS","S","M","L","XL"] }

@@ -1,0 +1,10 @@
+﻿name: Playtest report
+description: Findings from a playtest
+labels: [type:playtest, needs-triage]
+body:
+- type: textarea
+  id: summary
+  attributes: { label: Summary, description: What worked, what didn’t }
+- type: textarea
+  id: issues
+  attributes: { label: Issues observed, description: Link/number other issues if relevant }

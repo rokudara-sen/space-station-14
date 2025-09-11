@@ -1,0 +1,11 @@
+﻿name: Art asset request
+description: Request sprites/audio per Art & Aesthetic Bible
+labels: [type:art, area:art, needs-triage]
+body:
+- type: input
+  id: asset
+  attributes: { label: Asset name, placeholder: e.g., Engineering door sprite }
+  validations: { required: true }
+- type: textarea
+  id: refs
+  attributes: { label: References, description: Palette, motif, size (see Design.md §5) }
