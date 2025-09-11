@@ -1,9 +1,11 @@
-Project-Condor:
-  org: space-wizards
-  project: 2
+Warfork-MVP:
+  org: PowderedSong-of-Violet-Skies
+  project: 3
   inbox: Inbox
   labels:
-    "W: In Progress": "In Progress"
-    "W: Discussion": "Design and Discussion"
-    "W: Backlog": "Backlog"
-    "W: Next": "Next"
+    "P0": "Critical"
+    "P1": "High"
+    "P2": "Medium"
+    "P3": "Low"
+    "mvp": "MVP"
+    "post-mvp": "Post-MVP"
